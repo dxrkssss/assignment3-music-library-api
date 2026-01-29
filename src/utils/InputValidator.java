@@ -1,5 +1,7 @@
 package utils;
 
+import exception.InvalidInputException;
+
 public class InputValidator {
     public static void checkName(String name) {
         if (name == null || name.isEmpty()) {
